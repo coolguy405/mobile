@@ -13,11 +13,6 @@ function button(x, y, w, h) {
 let params;
 let img;
 let page = 0;
-function preload() {
-  img = loadImage(
-    "https://cdn.shopify.com/s/files/1/0070/7032/files/image5_087c48f2-6908-4c78-be94-033a7a2003b3.png?v=1671066079"
-  );
-}
 function dots(strs) {
   let result = "";
   for (let i = 0; i < strs.length; i++) {
